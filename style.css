@@ -212,6 +212,10 @@ section {
     height: 2rem;
 }
 
+.static-icon {
+    cursor: default;
+}
+
 /* BUTTONS */
 
 .btn-container {
