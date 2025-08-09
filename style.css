@@ -401,7 +401,7 @@ article .icon {
 }
 
 .card:hover .card-inner {
-  transform: rotateX(-180deg);
+    transform: rotateX(-180deg);
 }
 
 .front, .back {
@@ -482,4 +482,17 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+/* UTILS */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
 }
