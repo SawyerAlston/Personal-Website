@@ -117,6 +117,13 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
+.menu-links a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+
 .menu-links li {
     list-style: none;
 }
@@ -455,6 +462,7 @@ article .icon {
 .contact-info-upper-container {
     display: flex;
     justify-content: center;
+    gap: 0.5rem;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
