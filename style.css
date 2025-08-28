@@ -190,11 +190,12 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-    border: white 0.15rem solid;
 }
 
-#profile .section__pic-container{
-    border-radius: 100%;
+
+#profile .section__pic-container img{
+    border: white 0.15rem solid;
+    border-radius: 50%;
 }
 
 .section__text {
@@ -304,7 +305,8 @@ section {
     margin-top: 2rem;
 }
 
-#about .section__pic-container {
+#about .section__pic-container img{
+    border: white 0.15rem solid;
     border-radius: 2rem;
 }
 
