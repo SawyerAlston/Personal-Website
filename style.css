@@ -114,16 +114,16 @@ a:hover {
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(215, 215, 215);
     text-decoration: none;
     transition: all 0.3 ease-in-out;
 }
 
 .menu-links a:hover{
-    color: grey;
+    color: white;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: white;
 }
 
 .menu-links li {
