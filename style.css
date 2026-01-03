@@ -302,7 +302,7 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
 #about .section__pic-container img{
@@ -395,6 +395,10 @@ article .icon {
 
 #projects {
     position: relative;
+}
+
+#projects .title {
+    padding-bottom: 2rem;
 }
 
 .project-img {
